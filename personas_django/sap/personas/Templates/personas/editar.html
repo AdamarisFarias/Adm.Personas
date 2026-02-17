@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Editar Persona</title>
+</head>
+<body>
+         <h1> Formulario para editar una persona </h1>
+         <form method="POST">
+             {{formulario}}
+             <button type="Submit">Enviar</button>
+             {% csrf_token %}
+         </form>
+           <a HREF="{% url 'inicio'%">Regresar a inicio </a>
+</body>
+</html>

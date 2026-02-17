@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nueva Persona</title>
+</head>
+<body>
+    <h1> Formulario para agregar nueva persona </h1>
+
+    <form method ="POST">
+        {{formulario}}
+        <button type ="Subnit">Enviar</button>
+        {% csrf_token %}
+    </form>
+
+</body>
+</html>
